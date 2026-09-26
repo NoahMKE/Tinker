@@ -19,7 +19,7 @@ const fireGun = () => {
 
 const reloadGun = () => {
   if(mag < 5) {
-    mag += 5;
+    mag = 5;
     updateDisplay("Reloading...");
   } else {
     updateDisplay("AMMO FULL");
