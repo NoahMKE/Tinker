@@ -1,7 +1,7 @@
 let mag = 5;
 
 const displaymag = document.getElementById("display");
-updateDisplay = (message) => {
+const updateDisplay = (message) => {
   displaymag.innerText = `${message} ${mag}`;
 };
 
